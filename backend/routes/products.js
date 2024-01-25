@@ -1,4 +1,4 @@
-const { Product } = require("../models/Product");
+const Product = require("../models/Product");
 const { auth, isUser, isAdmin } = require("../middleware/auth");
 const cloudinary = require("../utils/cloudinary");
 const products = require("../products");
